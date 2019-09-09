@@ -1,5 +1,6 @@
 this is prob just a mix of stuff i found out look nice and put it together
-![](https://yatsukiko.me/u/hmptg4uAS5.png)
+![](https://yatsukiko.me/u/8XkButrFSx.gif)
+
 
 sources: 
 
