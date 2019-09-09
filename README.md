@@ -1,6 +1,6 @@
 this is prob just a mix of stuff i found out look nice and put it together
 
-1.member wrapper sliding hidden list thing
+1.member wrapper sliding hidden list thing with moved emoji and hidden gift and gif button
 
 ![](https://yatsukiko.me/u/8XkButrFSx.gif)
 
