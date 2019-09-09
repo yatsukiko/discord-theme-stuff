@@ -1,3 +1,8 @@
+/* Change this to fit your theme */
+:root{
+	--backgroudColourMList: rgba(24, 28, 37, 0.5);
+}
+
 /*Source https://customa.gitlab.io/Customa-Discord/Sidebar/wrapperMember.m.css */
 .membersWrap-2h-GB4{  
     position:absolute;
@@ -32,9 +37,11 @@
 	left: 28px;
 }
 /*move emoji picker so it fits better on left side */
-.theme-dark .popouts-2bnG9Z{
-left: 305px;
- }
+.emojiPicker-3m1S-j{
+position:absolute;
+bottom:0px;
+left:-40px;
+}
 
 /*member wrapper*/
 div[class*="membersWrap-"] {
@@ -52,7 +59,7 @@ div[class*="members"], div[class*="typing"] {
 div[class*="membersWrap-"]:hover {
     animation: member 300ms ease;
     transform:translate(0px);
-	background-color: rgba(24, 28, 37, 0.5) !important;
+	background-color: var(--backgroudColourMList) !important;
 	opacity:1;
 }
 
