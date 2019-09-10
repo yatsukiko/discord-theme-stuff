@@ -4,6 +4,7 @@
 }
 .membersWrap-2h-GB4{  
     position: absolute;
+	 right:0;
 	height:calc(100% - 50px);
 }
 /*Source https://customa.gitlab.io/Customa-Discord/Sidebar/wrapperMember.m.css */
