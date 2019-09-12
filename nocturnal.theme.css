@@ -1,0 +1,125 @@
+//META{"name":"Nocturnal","description":"A simple & clean dark theme for thoses who live at night, made to be easy on the eye","author":"Spectra#7698","version":"1.0","source":"https://github.com/codedotspectra/themes","website":"https://codedotspectra.github.io/me/"}*//{}
+/*
+
+███╗   ██╗ ██████╗  ██████╗████████╗██╗   ██╗██████╗ ███╗   ██╗ █████╗ ██╗
+████╗  ██║██╔═══██╗██╔════╝╚══██╔══╝██║   ██║██╔══██╗████╗  ██║██╔══██╗██║
+██╔██╗ ██║██║   ██║██║        ██║   ██║   ██║██████╔╝██╔██╗ ██║███████║██║
+██║╚██╗██║██║   ██║██║        ██║   ██║   ██║██╔══██╗██║╚██╗██║██╔══██║██║
+██║ ╚████║╚██████╔╝╚██████╗   ██║   ╚██████╔╝██║  ██║██║ ╚████║██║  ██║███████╗
+╚═╝  ╚═══╝ ╚═════╝  ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
+
+###################################################################################################
+Nocturnal Theme for Better Discord
+https://yatsukiko.me/u/new%201.css
+The author (Spectra#7698) retains full rights of this code.
+You are not allowed to redistribute this theme or any part of it as your own. That means do not post an edited version of this theme anywhere.
+You are allowed to edit the theme for personal use only.
+If you enjoy using the theme, help spread the word!
+
+This theme is meant to be used with the dark version of discord
+###################################################################################################*/
+@import url("https://raw.githack.com/codedotspectra/themes/master/nocturnal/importCSS/core.css");
+/*@import url("https://yatsukiko.me/u/noctu_canar_feex.css");*/
+@import url("https://yatsukiko.me/u/memeber_list_wrapper.css");
+.powercord-spotify .fas, .powercord-spotify .far {
+  color: #00ffff !important;
+}
+ .powercord-spotify-seek-bar-progress {
+    background-color: #00ffff;
+}
+.powercord-spotify-seek-duration {
+	color: #00ffff;
+}
+.powercord-spotify-songInfo .nameTag-3uD-yy{
+	color: #00ffff;
+	
+}
+
+:root{
+  --SizeEmojiHovered: 200px;
+  --TransitionDuration: 200ms;
+  --TransitionDelay: 250ms;
+}
+
+.emoji{
+  transition: all var(--TransitionDuration) var(--TransitionDelay);
+}
+
+.emoji:active{
+  width: var(--SizeEmojiHovered)!important;
+  height: var(--SizeEmojiHovered)!important;
+}
+
+.emoji{
+  width: 32px;
+  height: 32px;
+}
+
+.emoji.jumboable{
+  width: 32px;
+  height: 32px;
+}
+
+html, span:not(.spinner-item) /* Antialias Fixes */{
+  backface-visibility: hidden;
+
+}
+.attachPopout-1n-ZKM, .bf-toolbar:before, .resultFocused-3aIoYe {
+    background-color: rgba(0,0,0,.9)!important;
+}
+
+.statusProfile-3ynqtt.idle-3DEnRT,
+.statusProfile-3ynqtt.online-2S838R,
+.statusProfile-3ynqtt.dnd-1_xrcq,
+.statusProfile-3ynqtt.invisible-1kp8Z0,
+.statusProfile-3ynqtt.unknown-Ms2zdV-3qoTek,
+.statusProfile-3ynqtt.offline-3qoTek {
+	box-shadow: none !important;
+}
+
+.css:before, .js:before, .php:before, .java:before, .csharp:before, .c:before, .cpp:before, .coffeescript:before, .bat:before, .html:before,  .diff:before, .http:before, .json:before, .markdown:before, .makfile:before,
+.nginx:before, .perl:before, .properties:before, .ruby:before, .python:before, .shell:before, .sql:before, .powershell:before, .xml:before, .objectivec:before, .CSS:before, .py:before, .ts:before, .typescript:before,
+.scss:before, .less:before, .bash:before {
+  content: "" !important;
+  background: none !important;
+}	
+.hljs {
+	margin-top: 0px !important;
+	}
+
+.powercord-badge img {
+  filter: brightness(100) !important;
+}
+[class*="profileBadgeHypesquad-"] {
+  background-image: url("https://canary.discordapp.com/assets/3a050fcc884255231b99b7033c776070.svg") !important;
+}
+[class*="profileBadgePremium"] {
+  background-image: url("https://canary.discordapp.com/assets/379d2b3171722ef8be494231234da5d1.svg") !important;
+}
+[class*="profileBadgeEarlySupporter"] {
+  background-image: url("https://canary.discordapp.com/assets/ce15562552e3d70c56d5408cfeed2ffd.svg") !important;
+}
+[class*="profileBadgePartner"] {
+  background-image: url("https://canary.discordapp.com/assets/a0e288a458c48dfcf548dadc277e42e6.svg") !important;
+}
+[class*="profileBadgeStaff"] {
+  background-image: url("https://canary.discordapp.com/assets/7cfd90c8062139e4804a1fa59f564731.svg") !important;
+}
+[class*="profileBadgeBugHunter"] {
+  background-image: url("https://canary.discordapp.com/assets/df26f079738a4dcd07cbce6eb3c957f1.svg") !important;
+}
+[class*="profileBadgeHypeSquadOnlineHouse1"] {
+  background-image: url("https://canary.discordapp.com/assets/1115767aed344e96a27a12e97718c171.svg") !important;
+}
+[class*="profileBadgeHypeSquadOnlineHouse2"] {
+  background-image: url("https://canary.discordapp.com/assets/d3478c6bd5cee0fc600e55935ddc81aa.svg") !important;
+}
+[class*="profileBadgeHypeSquadOnlineHouse3"] {
+  background-image: url("https://canary.discordapp.com/assets/2a085ed9c86f3613935a6a8667ba8b89.svg") !important;
+}
+
+/*block */
+div[class^="messageGroupBlocked-"], div[class*=" messageGroupBlocked-"] {
+display: none;
+}
+/*###################################################################################################*/
