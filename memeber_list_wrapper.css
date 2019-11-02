@@ -2,18 +2,13 @@
 :root{
 	--backgroudColourMList: rgba(24, 28, 37, 0.5);
 }
+/*Source https://customa.gitlab.io/Customa-Discord/Sidebar/wrapperMember.m.css */
 .membersWrap-2h-GB4{  
     position: absolute;
-	 right:0;
+	right:0;
 	height:calc(100% - 50px);
 }
-/*Source https://customa.gitlab.io/Customa-Discord/Sidebar/wrapperMember.m.css */
 /*
-.membersWrap-2h-GB4{  
-    position:absolute;
-	right:0;
-	height:calc(100% - 48px);
-}
  
 .buttonWrapper-1ZmCpA{
 	display:none;
